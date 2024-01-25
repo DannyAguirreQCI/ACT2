@@ -1,0 +1,111 @@
+/* Estilo para la navegación */
+    .nav {
+        background-color: #000;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .nav a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 5px;
+        background-color: #0a0a0a;
+    }
+
+    .nav a:hover {
+        background-color: #fd0000;
+        color: #000;
+        font-weight: bold;
+    }
+/*Encabezados*/
+    header{
+        background-color: #ff0000b6;
+        color: #ffffff;
+        text-shadow: 2px 2px 2px #000000;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h2 {
+        color: #da0000d5;
+        text-shadow: 1px 1px 1px #000000;
+    }
+
+/* Estilo para el cuerpo de la página */
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        color: #fff;
+    }
+
+    section {
+        padding: 20px;
+        margin: 20px;
+        background-color: #faf4e9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        color: #000;
+    }
+
+/*Listas*/
+    ul, ol {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+/* Estilo para la tabla */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+    
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+        background-color: #444;
+    color: #fff;
+    }
+
+/*Imagen*/
+    img {
+        max-width: 100%;
+        height: 100px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+
+/*Formulario*/
+    #formulario{
+        width: 40%;
+        padding: 5px;
+        margin: 30px auto;
+        text-align: center;
+        background-color: #f5ebeb;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        color: #000;
+
+    }
+
+/*Pie de pagina*/
+    .footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #ff0000b6;
+        color: #fff;
+        bottom: 0;
+        width: 100%;
+    }
+  
+  
